@@ -1,10 +1,11 @@
-import { bestSeller, newBook, doraemon, combo, manga } from "./data.js";
+import { bestSeller, newBook, doraemon, combo, manga, director } from "./data.js";
 
 const NewBook = $('.newBookRow'); 
 const BestSeller = $('.bestSellerRow'); 
 const Combo = $('.comboRow'); 
 const Manga = $('.mangaRow');
 const Doremon = $('.doremonRow');
+const directorRow = $('.directorRow');
 
 $(document).ready(function () {
    $(".menu-icon").on("click", function () {
@@ -16,6 +17,7 @@ $(document).ready(function () {
    render(combo, Combo);
    render(manga, Manga);
    render(doraemon, Doremon);
+   renderDirector();
 });
 
 $(window).on("scroll", function () {
@@ -46,3 +48,27 @@ const render = (bookGalary, where) => {
    });
    where.html(mapBook)
 };
+
+const renderDirector = ()=>{
+   const directorMem = director.map((dir, index)=>{
+      return `
+      <aside class="profile-card" index =${index}>
+         <div class="profile-header">
+            <a href="#">
+               <img src="${dir.img}">
+            </a>
+            <h1>${dir.name}</h1>
+            <h2>${dir.work}</h2>
+         </div>
+         
+         <div class="profile-bio">
+            <p>
+            ${dir.desc}
+            </p>
+         </div>
+      </aside>
+      `
+   })
+
+   directorRow.html(directorMem);
+}
