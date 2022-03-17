@@ -192,3 +192,32 @@ export const doraemon =[
    },
 
 ]
+
+export const director = [
+   {
+      name: 'Lê văn sơn',
+      work:'web developer',
+      desc:'develop website',
+      img:'./assets/img/son.jpg'
+   },
+   {
+      name: 'Vũ đức Bằng',
+      work:'web developer',
+      desc:'develop website',
+      img: './assets/img/ducbang.jpg'
+   },
+   {
+      name: 'Duy Vũ',
+      work:'web developer',
+      desc:'develop website',
+      img: './assets/img/vuduy.jpg'
+
+   },
+   {
+      name: 'Vũ hiếu',
+      work:'web developer',
+      desc:'develop website',
+      img: './assets/img/vuhieu.jpg'
+   }
+
+]
