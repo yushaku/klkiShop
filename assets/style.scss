@@ -40,6 +40,13 @@ nav {
       font-size: 28px;
       text-shadow: 0 0 5px rgb(248, 6, 6);
       letter-spacing: 2px;
+      border-radius: 4px;
+
+      img{
+         width: 200px;
+         height: 70px;
+         padding-bottom: 6px;
+      }
    }
 
    .menu-icon {
@@ -119,6 +126,7 @@ nav {
             margin: 0;
             .card {
                width: 210px;
+               height: 350px;
                cursor: pointer;
                border-radius: 8px;
                &:hover {
