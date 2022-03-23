@@ -196,27 +196,27 @@ export const doraemon =[
 export const director = [
    {
       name: 'Lê văn sơn',
-      work:'web developer',
-      desc:'develop website',
+      work:'177563',
+      desc:'lập trình web, thiết kế logo',
       img:'./assets/img/son.jpg'
    },
    {
-      name: 'Vũ đức Bằng',
-      work:'web developer',
-      desc:'develop website',
+      name: 'Nguyễn Anh Bằng',
+      work:'13163',
+      desc:'tìm hiểu giải thuật nén ảnh JPEG, MPEG và làm báo cáo slide',
       img: './assets/img/ducbang.jpg'
    },
    {
-      name: 'Duy Vũ',
-      work:'web developer',
-      desc:'develop website',
+      name: 'Vũ Hoàng Duy',
+      work:'36863',
+      desc:'làm video và ảnh gif',
       img: './assets/img/vuduy.jpg'
 
    },
    {
-      name: 'Vũ hiếu',
-      work:'web developer',
-      desc:'develop website',
+      name: 'Vũ Minh hiếu',
+      work:'1518763 ',
+      desc:'dịch vawn bản tiếng anh, làm cáo cáo phần tiếng anh',
       img: './assets/img/vuhieu.jpg'
    }
 

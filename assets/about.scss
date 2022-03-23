@@ -146,3 +146,25 @@ button:focus {
    box-shadow: none !important;
    outline-width: 0
 }
+.DescContainer{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   .gifImg{
+      flex: 1;
+      img{
+         width: 110%;height: 100%;
+      }
+   }
+   .gifImg2{
+      flex: 0.7;
+      img{
+         height: 80%;
+      }
+   }
+   .aboutKiKi{
+      flex: 2;
+   }
+}
