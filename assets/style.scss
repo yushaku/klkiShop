@@ -96,13 +96,12 @@ nav {
 
 .sell-container {
    margin-top: 18px;
+   overflow: hidden;
 
    .banner {
-      overflow: hidden;
       img {
-         vertical-align: middle;
-         transform: translateX(-20%) scaleX(0.8);
          object-fit: cover;
+         transform: translateX(-10.5%);
       }
    }
    .newBook,

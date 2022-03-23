@@ -216,7 +216,7 @@ export const director = [
    {
       name: 'Vũ Minh hiếu',
       work:'1518763 ',
-      desc:'dịch vawn bản tiếng anh, làm cáo cáo phần tiếng anh',
+      desc:'dịch văn bản tiếng anh, làm cáo cáo phần tiếng anh',
       img: './assets/img/vuhieu.jpg'
    }
 
