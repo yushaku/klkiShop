@@ -210,7 +210,7 @@ export const director = [
       name: 'Vũ Hoàng Duy',
       work:'36863',
       desc:'làm video và ảnh gif',
-      img: './assets/img/vuduy.jpg'
+      img: './assets/img/duy.jpg'
 
    },
    {
