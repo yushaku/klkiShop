@@ -197,7 +197,7 @@ export const director = [
    {
       name: 'Lê văn sơn',
       work:'177563',
-      desc:'lập trình web, thiết kế logo',
+      desc:'lập trình web, thiết kế logo, thiết kế ảnh',
       img:'./assets/img/son.jpg'
    },
    {
@@ -217,7 +217,7 @@ export const director = [
       name: 'Vũ Minh hiếu',
       work:'1518763 ',
       desc:'dịch văn bản tiếng anh, làm cáo cáo phần tiếng anh',
-      img: './assets/img/vuhieu.jpg'
+      img: './assets/img/hieu.png'
    }
 
 ]
